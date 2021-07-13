@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+</head>
+<style>
+    .name {
+        width: 200px;
+    }
+    
+    .reg {
+        padding: 2px 2px 2px 2px;
+        text-align: center;
+    }
+    
+    .feed {
+        border: solid;
+        width: 500px;
+        height: 100px;
+    }
+</style>
+
+<body>
+
+    <h1 align="center">Registration Form </h1>
+    <div class="reg">
+        <form>
+            Name : &nbsp; &nbsp; &nbsp; &nbsp;<input type=text class="name" required> <br> <br> Email : &nbsp; &nbsp; &nbsp; &nbsp;<input type=text class="name" required> <br> <br> Password : &nbsp;<input type="password" class="name" required> <br> <br>            Education :&nbsp;<input type="text" class="name" required> <br>
+            <Br> Status : <input type="radio" id="Married" name="radio">
+            <lable for="married">Married</lable>
+            <input type="radio" id="Unmarried" name="radio">
+            <label for="Unmarried">Unmarried</label> <br> <br> Phone No : <input type="number" class="name" required> <br>
+            <Br> Tele No : &nbsp; &nbsp;<input type="tel" name="tel" class="name" required> <br> <br> <br>
+            <textarea style="font-size: 15px;" minlength="10" maxlength="200" cols="50" rows="10" placeholder="Say Something About Yourself" required></textarea>
+            <br> <br>
+            <details>
+                <summary>Details</summary>
+                You are required to fill out geniune information
+            </details> <br> <br>
+            <input type="submit" placeholder="Submit"> &nbsp; &nbsp; &nbsp;
+            <input type="reset" placeholder="Reset">
+        </form>
+    </div>
+</body>
+
+</html>
