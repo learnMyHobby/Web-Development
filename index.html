@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plain html</title>
+</head>
+
+<body>
+    <h1>Form</h1>
+    <form action="/action_page.php" method="post">
+        <fieldset>
+            <label>First Name:  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="name" ></label><br>
+            <label>Last Name:  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="name" ></label><br>
+            <label>Password: <input type="password" size="20" name="password"></label><br>
+            <label for="email">Email:<input type="email" name="email"></label><br>
+
+            <label for="">Check Me!<input type="checkbox" name="check Me"></label><br>
+
+            <label for="">Check Me2!<input type="checkbox" name="check Me"></label><br>
+
+            <label><input type="radio" name="male" value="male"> Male</label><br>
+
+            <label><input type="radio" name="male" >female</label><br>
+
+            <input type="range" name="Slider" step="1" value="0" min="0" max="100" required><br>
+
+            <label for="Countries">Choose your country</label><br>
+            <select name="country" id="">
+            <option value=Russia">Russia</option>
+            <option value="Korea">Korea</option>
+            <option value="Japan">Japan</option>
+            <option value="India">India</option>
+            <option value="Maldives">Maldives</option>
+            <option value="Nepal">Nepal</option>
+        </select>
+
+            <br> Number:
+            <input type="number" name="Phone number"><br>
+
+            <!--This is for date-->
+            <input type="date" name="Date" value="2021/07/14"><br>
+
+            <!--This allows users to see time-->
+            <input type="time" name="myInput" value="23:29"><br>
+
+            <!-- This allows users to search for things-->
+            <input type="search" name="myInput" placeholder="Search" size="30" required><br>
+
+            <!--  This allows users to choose multiple files-->
+            <input type="file" name="myInput" accept="image/*, .pdf" multiple required><br>
+
+            <!--This is for telephone numbers-->
+            <input type="tel" name="myInput" required><br>
+
+            <!-- This is button-->
+            <button type="button" name="myButton">Button!</button><br>
+
+            <!--This is reset button-->
+            <button type="reset" name="reset">Reset</button><br>
+
+            <!--This is submit button-->
+            <button type="submit" name="submit">Submit</button><br>
+
+            <textarea name="textarea" cols="20" rows="10" minlength="20" maxlength="500" placeholder="say something" required></textarea><br>
+
+            <br>
+
+            <!--This is for audio-->
+            <audio controls><br> <br>
+            <source src="/audio.mp3" type="audio/mp3"><br>
+          </audio>
+
+            <!-- This is youtube embeded iframe video-->
+            <figcaption>This is random video</figcaption>
+            <iframe width="420" height="315" src="https://www.youtube.com/embed/tgbNymZ7vqY"><br><br>
+        </iframe>
+
+            <!--This is for video-->
+            <video controls height="400" width="400"><br>
+            
+            <source src="/sample-mp4-file.mp4" type="video/mp4"><br>
+        </video>
+            <br><br>
+
+        </fieldset>
+
+
+    </form>
+
+</body>
+
+</html>
